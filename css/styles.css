@@ -11305,8 +11305,11 @@ header.masthead {
   background-color: #343a40;
   background: url("../assets/img/bg-masthead.jpg") no-repeat center center;
   background-size: cover;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 7rem;
+}
+header.masthead .logo {
+  margin-top: 3rem;
 }
 header.masthead:before {
   content: "";
@@ -11319,21 +11322,24 @@ header.masthead:before {
   opacity: 0.5;
 }
 header.masthead h1, header.masthead .h1 {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: normal;
 }
 header.masthead h2, header.masthead .h2 {
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   font-weight: normal;
   margin-top: 2rem;
 }
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 9rem;
   }
   header.masthead h1, header.masthead .h1 {
-    font-size: 3rem;
+    font-size: 2.8rem;
+  }
+  header.masthead h2, header.masthead .h2 {
+    font-size: 1.6rem;
   }
 }
 
