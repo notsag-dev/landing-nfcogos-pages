@@ -5,7 +5,7 @@
 */
 (() => {
   "use strict";
-  var host = "https://stingray-app-xs5pa.ondigitalocean.app";
+  var host = "https://api.nfcogos.com";
   var t = function (t, e, n, i) {
     return new (n || (n = Promise))(function (s, a) {
       function r(t) {
